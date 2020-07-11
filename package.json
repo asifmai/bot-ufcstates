@@ -1,0 +1,21 @@
+{
+  "name": "bot-ufcstats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "ship": "git add .&&git commit -m 'update'&&git push"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.27.0",
+    "puppeteer": "^5.0.0",
+    "underscore": "^1.10.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.12.0"
+  }
+}
